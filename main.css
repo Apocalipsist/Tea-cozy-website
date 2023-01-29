@@ -1,0 +1,164 @@
+html {
+    font-family: Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    background-color: black;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+* {
+    color: seashell;
+    text-align: center;
+    opacity: 0.9;
+}
+
+p {
+    font-size: 22px;
+}
+  a {
+    text-decoration: underline;
+  }
+  
+  header {
+    position:sticky;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+  }
+  
+  nav {
+    display:flex;
+    align-items: center;
+  }
+  .main-nav {
+    display: flex;
+    flex-grow: 1;
+    justify-content: end;
+  }
+  .main-nav li {
+    display: inline-block;
+    padding: .5em;
+  }
+  
+  .container {
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-around;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    margin: 10px;
+    height: 50px;
+  }
+  .hero {
+    display: flex;
+    background-image: url("./Images/img-mission-background.jpg");
+    background-size:cover;
+    justify-items: center;
+    align-items: center;
+    height: 700px;
+    max-width: 1200px;
+  }
+  
+  .banner {
+    text-align: center;
+    align-items: center;
+    width: 1200px;
+    background-color: black;
+  }
+
+    /* Tea Cards */
+  
+  .Tea {
+    display: flex;
+    max-width: 1000px;
+  }
+  
+  .cards {
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .card {
+    display: inline;
+    width: 300px;
+    align-items:center;
+  }
+
+  .card h4 {
+    font-size: larger;
+    margin-top: 10px;
+  }
+
+  .card img {
+    height: 200px;
+  }
+  
+
+  /* Locations */
+
+  #Locations {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    background-image: url("Images/img-locations-background.jpg");
+    background-size: cover;
+    height: 500px;
+    width: 1200px;
+  }
+  
+  #Locations h2{
+    font-size: x-large;
+    background-color: transparent;
+  }
+  
+  .location {
+    display: flex;
+    opacity: 1;
+}
+
+.location-card {
+    display: inline-flex;
+    flex-direction: column;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0px 30px;
+}
+
+.location h3 {
+    margin: 30px 0 0 0;
+
+}
+
+.address {
+    margin: 10px;
+    padding: 0;
+    display: inline-block;
+}
+
+.address li {
+    display: inline;
+  }
+  
+  /* footer */
+  
+  .contact {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    line-height: .1em;
+    height: 200px;
+  }
+  
+  .copywrite {
+    display: flex;
+    margin: 20px;
+    font-weight: 600;
+  }
